@@ -18,5 +18,5 @@
   </li>
   <li>Angular is awesome</li>
 </ul>
-<app-user> </app-user>
+<app-user [name]="rootName" (nameChanged)="onNameChanged($event)"> </app-user>
 
